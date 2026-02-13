@@ -22,7 +22,6 @@ int main(void)
 				now_value = arr[j] + arr[k] + arr[l];
 				if (now_value > M)
 				{
-					now_value = close_value;
 					continue;
 				}
 				// 갭이 close_value보다 가까우면 그 값으로 대체
